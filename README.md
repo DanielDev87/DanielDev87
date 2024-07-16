@@ -1,11 +1,11 @@
 # Hola, soy DanielDev👋 
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF3670&size=35&center=true&vCenter=true&width=1000&lines=Bienvenid@+a+mi+perfil+GitHub!;+soy+DaniDev,+desarrollador+de+Software)](https://git.io/typing-svg)
-<!--- snake -->
+<!--- snake 
 <div align="center">
   <img  src="https://github.com/1999AZZAR/1999AZZAR/blob/readme/resources/img/grid-snake.svg"
        alt="snake" /></a>
-</div>
+</div>-->
 
 
 #### Stack principal:
