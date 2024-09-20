@@ -1,4 +1,6 @@
 # Hola 👋 
+<a href="https://www.github.com/DanielDev87" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/DanielDev87?logo=github&style=for-the-badge&color=6366f1&labelColor=27272a" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF3670&size=35&center=true&vCenter=true&width=1000&lines=Bienvenid@+a+mi+perfil+GitHub!;+soy+DanielDev87,+desarrollador+de+Software)](https://git.io/typing-svg)
 <!--- snake 
@@ -61,3 +63,11 @@
 - 😄 Mi propósito es llegar a crear una solución digital sostenible para la industria actual apoyando principalmente a los emprendedores y personas
      que como yo luchamos por cumplir nuestros proyectos.
 - ⚡ "...Jamás permitas que tus sueños sean pisoteados".
+
+<b>Mi estatus en GitHub de mis dos perfiles</b>
+
+<a href="http://www.github.com/DanielDev87"><img src="https://github-readme-stats.vercel.app/api?username=DanielDev87&show_icons=true&hide=&count_private=true&title_color=6366f1&text_color=ffffff&icon_color=6366f1&bg_color=27272a&hide_border=true&show_icons=true" alt="silvaneimartins's GitHub stats" /></a>
+
+<a href="http://www.github.com/DanielDev87"><img src="https://github-readme-streak-stats.herokuapp.com/?user=DanielDev87&stroke=ffffff&background=27272a&ring=6366f1&fire=6366f1&currStreakNum=ffffff&currStreakLabel=6366f1&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
+
+<a href="https://github.com/DanielDev87" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DanielDev87&langs_count=10&title_color=6366f1&text_color=ffffff&icon_color=6366f1&bg_color=27272a&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
