@@ -4,7 +4,6 @@ src="https://img.shields.io/github/followers/DanielDev87?logo=github&style=for-t
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF3670&size=35&center=true&vCenter=true&width=1000&lines=Bienvenid@+a+mi+perfil+GitHub!;+soy+DanielDev87,+desarrollador+de+Software)](https://git.io/typing-svg)
  
-## 🐍 GitHub Activity Snake
 
 ![Snake animation](https://raw.githubusercontent.com/DanielDev87/output/github-snake.svg)
 
