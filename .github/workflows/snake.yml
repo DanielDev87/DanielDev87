@@ -1,0 +1,34 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Se ejecuta todos los días a medianoche
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v3
+
+      - name: Generar animación de la serpiente
+        uses: Platane/snk@v3
+        with:
+          github_user_name: DanielDev87
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      - name: Subir animación generada
+        uses: actions/upload-artifact@v3
+        with:
+          name: snake-animation
+          path: dist
+
+      - name: Publicar en el repositorio
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
