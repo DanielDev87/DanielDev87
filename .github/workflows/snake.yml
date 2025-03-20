@@ -2,24 +2,34 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Ejecuta el workflow todos los días a medianoche
-  workflow_dispatch: # Permite ejecutar el workflow manualmente
+    - cron: "0 0 * * *"  # Ejecutar una vez al día a medianoche UTC
+  workflow_dispatch:  # Permite ejecutar manualmente el workflow
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write  # Permiso necesario para hacer push
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Clona todo el historial para evitar errores con git
 
-      - name: Generate snake animation
+      - name: Configure Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git fetch --unshallow
+          git reset --hard HEAD
+
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-snake.svg
 
-      - name: Upload artifact
+      - name: Upload Snake Animation Artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-snake
