@@ -18,12 +18,10 @@ jobs:
           github_user_name: DanielDev87
           outputs: dist/snake.svg
 
-      - name: Commit y push de la animación
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          mkdir -p assets
-          mv dist/snake.svg assets/snake.svg
-          git add assets/snake.svg
-          git commit -m "Actualización de la animación de la serpiente" || echo "Sin cambios para commit"
-          git push
+      - name: Publicar animación en la rama "output"
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
