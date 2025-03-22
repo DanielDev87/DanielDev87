@@ -3,8 +3,7 @@ name: Generate Snake Animation
 on:
   schedule:
     - cron: "0 0 * * *"  # Se ejecuta todos los días a la medianoche
-
-  workflow_dispatch:  # Permite ejecutarlo manualmente
+  workflow_dispatch:  # Permite ejecutarlo manualmente desde la pestaña Actions
 
 jobs:
   generate:
@@ -19,8 +18,12 @@ jobs:
           github_user_name: DanielDev87
           outputs: dist/snake.svg
 
-      - name: Subir animación al repositorio
-        uses: actions/upload-artifact@v3
-        with:
-          name: snake
-          path: dist/snake.svg
+      - name: Commit y push de la animación
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          mkdir -p assets
+          mv dist/snake.svg assets/snake.svg
+          git add assets/snake.svg
+          git commit -m "Actualización de la animación de la serpiente" || echo "Sin cambios para commit"
+          git push
