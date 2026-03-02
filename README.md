@@ -3,10 +3,12 @@
 src="https://img.shields.io/github/followers/DanielDev87?logo=github&style=for-the-badge&color=6366f1&labelColor=27272a" />
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=FF3670&size=35&center=true&vCenter=true&width=1000&lines=Bienvenid@+a+mi+perfil+GitHub!;+soy+DanielDev87,+desarrollador+de+Software)](https://git.io/typing-svg)
- 
+
+## Te invito a apoyar con estrellas, forks o contribuciones el siguiente repositorio:
+[Repositorio A-DDIE](https://github.com/DanielDev87/virtual-center-app)
 
 ## 💬 Únete a la discusión
-📢 ¡Comparte tu opinión en nuestra discusión en GitHub! 👉 [Participar aquí](https://github.com/DanielDev87/mario-bross-game/discussions/1))
+📢 ¡Comparte tu opinión en nuestra discusión en GitHub! 👉 [Participar aquí](https://github.com/DanielDev87/mario-bross-game/discussions/1)
 
 
 
